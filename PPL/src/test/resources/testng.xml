@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="PPL Application Automation Suite">
+	<listeners>
+		<listener class-name="com.ppl.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+	<test name="PPL Application Test Cases">
+
+		<classes>
+			<class name="com.ppl.qa.testcases.LoginPageTest" />
+			<class name="com.ppl.qa.testcases.Program_RolePageTest" />
+            <class name="com.ppl.qa.testcases.ClientPageTest" />
+
+		</classes>
+	</test> <!-- TestNG -->
+</suite> <!-- Suite -->
